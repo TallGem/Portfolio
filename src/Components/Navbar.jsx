@@ -1,19 +1,33 @@
 import React from 'react'
+import { navObj } from './NavContent'
+import { Link } from 'react-scroll'
+import Logo from '../Images/tgmlogo.png'
 
 const Navbar = () => {
   return (
     <>
-        <div>
-            <h3>Home</h3>
-            <h3>About</h3>
-            <h3>Skills</h3>
-            <h3>Portfolio</h3>
-            <h3>Services</h3>
-            <h3>Contact</h3>
+      <div className='hidden md:block lg:block'>
 
-            
-            
-        </div>
+        <nav className=' flex items-center justify-between'>
+          <div><img src={Logo} style={{ width: '200px' }} alt="" /></div>
+
+          <div className='justify-end'>
+
+            <ul>
+
+              <li className=' flex flex-row gap-16  me-20 mt-5'>
+                {navObj.map((items, index) => (
+                  <Link smooth key={index} to={items.link} >
+                    <div>{items.title}</div>
+                  </Link>
+                ))}
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+
+      </div>
     </>
   )
 }
