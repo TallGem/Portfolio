@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Sidebar = ({handleClose}) => {
     return (
-        <div className='fixed top-0 bg-red-400   md:hidden w-2/3 h-2/3'>
+        <div className='fixed top-0 z-[1000000] min-h-screen bg-red-600    md:hidden w-2/3 h-2/3'>
 
             <aside>
 

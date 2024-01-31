@@ -5,6 +5,7 @@ import Sidebar from './Components/Sidebar';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Hero from './Components/Hero';
+import About from './Components/About';
 
 const App = () => {
 
@@ -41,6 +42,7 @@ const App = () => {
 
 
     <Hero/>
+    <About/>
     </div>
     </>
   )
