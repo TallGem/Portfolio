@@ -14,7 +14,7 @@ const Hero = () => {
        <TypeAnimation
 
        sequence={[
-            "jojo",500,
+            "jojo",600,
             "kiki", 500,
             "lola", 500,
           
