@@ -41,7 +41,7 @@ const App = () => {
     <div className={isOpen?'block' : 'hidden'}><Sidebar handleClose={handleClick}/></div>
 
 
-    <Hero/>
+    
     <About/>
     </div>
     </>
