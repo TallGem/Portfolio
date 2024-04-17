@@ -5,13 +5,13 @@ const About = () => {
   return (
     <>
       <section className="" style={{ backgroundColor: "#c3eefa" }}>
-        <div className="ps-10 pt-20 grid">
-          <h1 className="text-5xl p-5">
-            Hi, I'm <span className="font-bold">Abdul-Afees</span>, <br />{" "}
+        <div className="lg:px-10 lg:py-10 grid mx-5">
+          <h1 className="text-4xl">
+            Hi, I'm <span className="font-bold">Abdul-Afees</span>, <br />
             <span>a Fullstack Developer.</span>
           </h1>
 
-          <h2>
+          <h1 className="text-3xl mt-2">
             An expert in{" "}
             <TypeAnimation
               sequence={[
@@ -38,7 +38,7 @@ const About = () => {
               style={{ fontSize: "1em" }}
               repeat={Infinity}
             />
-          </h2>
+          </h1>
         </div>
       </section>
     </>
