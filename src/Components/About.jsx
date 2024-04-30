@@ -1,11 +1,13 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import worker from "../Images/worker2.png"
+import {Link} from "react-scroll"
 
 const About = () => {
   return (
-    <>
-      <section className="grid grid-cols-2" style={{ backgroundColor: "#c3eefa" }}>
+    <div  style={{ backgroundColor: "#c3eefa" }}>
+
+      <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-5" >
         <div className="lg:py-10 lg:px-10 " >
           <h1 className="text-4xl">
             Hi, I'm <span className="font-semibold" style={{ color: "#0e5ddd" }}>Abdul-Afees</span>   <br /> <span> a </span>
@@ -41,17 +43,25 @@ const About = () => {
             I am a highly motivated and detail-oriented fullstack developer with years of experience in developing responsive websites and applications. I've honed my skills in HTML, CSS, JavaScript, and various frameworks like React and Angular, allowing me to bring ideas to life in the digital realm.
           </p>
 
-          <p className="text-base font-medium mt-2">
+          <p className="text-base font-medium mt-2 mb-8">
             Beyond coding, I'm a firm believer in continuous learning. I stay up-to-date with the latest trends and technologies in web development to ensure that my work remains at the forefront of industry standards.
           </p>
 
+          <span className="">
+            <Link className="p-3 rounded me-5 font-semibold " style={{backgroundColor:"#f9c5bd"}}>See my Project</Link>
+            <a href="" className="p-3 rounded font-semibold" style={{backgroundColor:"#0e5ddd"}}>Downlaod my CV</a>
+          </span>
+
+        
         </div>
 
         <div>
           <img src={worker} className="img-fluid" width={500} />
         </div>
+
       </section>
-    </>
+
+    </div>
   );
 };
 
