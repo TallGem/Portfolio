@@ -12,7 +12,7 @@ import { SiFirebase } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
 
 
-export const Skills = [
+export const skills = [
 
     {
         icon: <FaGitAlt/>,
