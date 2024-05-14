@@ -6,6 +6,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import About from './Components/About';
 import Skills from './Components/Skills';
+import Project from './Components/Project';
+import Services from './Components/Services';
 
 const App = () => {
 
@@ -44,6 +46,8 @@ const App = () => {
     
     <About/>
     <Skills/>
+    {/* <Project/> */}
+    <Services/>
     </div>
     </>
   )

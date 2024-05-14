@@ -5,11 +5,11 @@ import { Link } from "react-scroll";
 
 const About = () => {
   const hrStyle = {
-    backgroundColor: 'black', 
-    height: '1px', 
+    backgroundColor: 'black',
+    height: '1px',
     border: 'none',
-    
-    
+
+
   };
 
 
@@ -58,7 +58,7 @@ const About = () => {
             />
           </h1>
 
-          <h1 className="text-2xl mt-10 font-semibold ">⪼⪼⪼About Me:</h1>
+          <h1 className="text-2xl mt-10 font-semibold ">⪼⪼⪼ About Me:</h1>
           <p className="text-base font-medium">
             I am a highly motivated and detail-oriented fullstack developer with
             years of experience in developing responsive websites and
@@ -86,7 +86,7 @@ const About = () => {
               className="p-3 rounded font-semibold"
               style={{ backgroundColor: "#0e5ddd" }}
             >
-              Downlaod my CV
+              Downlaod CV
             </a>
           </span>
         </div>
