@@ -15,8 +15,8 @@ const About = () => {
 
   return (
     <div style={{ backgroundColor: "#c3eefa" }}>
-      <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-5 mb-10">
-        <div className="lg:py-10 lg:px-10 mt-15 ">
+      <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-5 mb-10 pt-24">
+        <div className="lg:py-10 lg:px-10  ">
           <h1 className="text-4xl">
             Hi, I'm{" "}
             <span className="font-semibold" style={{ color: "#0e5ddd" }}>
@@ -44,12 +44,13 @@ const About = () => {
                 500,
                 "Firebase",
                 500,
+                "Tailwind Css",
+                500,
                 "Express",
                 500,
                 "Mongo DB",
                 500,
-                "Tailwind Css",
-                500,
+              
                 "Bootstrap Css",
                 500,
               ]}

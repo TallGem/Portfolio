@@ -6,7 +6,7 @@ import Logo from '../Images/tgmlogo.png'
 const Navbar = () => {
   return (
     <>
-      <div className='hidden md:block lg:block' style={{backgroundColor:'#f9c5bd'}}>
+      <div className='hidden md:block lg:block fixed w-full' style={{backgroundColor:'#f9c5bd'}}>
 
         <nav className=' flex items-center justify-between py-4'>
           <div><img src={Logo} style={{ width: '200px' }} alt="" /></div>
