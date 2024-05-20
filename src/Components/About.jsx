@@ -14,7 +14,7 @@ const About = () => {
 
 
   return (
-    <div style={{ backgroundColor: "#c3eefa" }}>
+    <div className="bg-blue-50">
       <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-5 mb-10 pt-24">
         <div className="lg:py-10 lg:px-10  ">
           <h1 className="text-4xl">
@@ -31,29 +31,20 @@ const About = () => {
           <h1 className="text-3xl mt-2 ">
             An expert in{" "}
             <TypeAnimation
+
               sequence={[
-                "Javasript",
-                500,
-                "React",
-                500,
-                "CSS",
-                500,
-                "Node JS",
-                500,
-                "HTML",
-                500,
-                "Firebase",
-                500,
-                "Tailwind Css",
-                500,
-                "Express",
-                500,
-                "Mongo DB",
-                500,
-              
-                "Bootstrap Css",
-                500,
+                "Javasript",500,
+                "React",500,
+                "CSS", 500,
+                "Node JS", 500,
+                "HTML", 500,
+                "Firebase", 500,
+                "Tailwind Css", 500,
+                "Express", 500,
+                "Mongo DB", 500,
+                "Bootstrap Css", 500,
               ]}
+              
               style={{ fontSize: "1em" }}
               repeat={Infinity}
             />

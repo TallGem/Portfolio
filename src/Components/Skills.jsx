@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <div>
 
-      <div style={{ backgroundColor: "#c3eefa" }}>
+      <div className='bg-blue-50'>
 
         <section className='px-10 mx-5 py-20'>
           <h1 className='text-2xl font-semibold mb-5'>⪼⪼⪼ Skills and Tools:</h1>
