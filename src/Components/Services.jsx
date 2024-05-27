@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaServicestack } from "react-icons/fa6";
+import serviceboy from '../Images/services1.png'
 import { SiWebmoney } from "react-icons/si";
 import { PiWebhooksLogoFill } from "react-icons/pi";
 import { SiSemanticweb } from "react-icons/si";
 
 const Services = () => {
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-2 gap-2'>
 
       <div className='bg-blue-50'>
 
@@ -60,6 +61,10 @@ const Services = () => {
 
         </div>
 
+      </div>
+
+      <div>
+        <img src={serviceboy} className="img-fluid lg:mt-16 " width={700} />
       </div>
 
 
