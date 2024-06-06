@@ -7,7 +7,7 @@ const Contact = () => {
       <div>
 
         <h3 className='text text-2xl font-semibold'>
-          ⪼⪼⪼ Contact me:
+          ⪼⪼⪼ Contact:
         </h3>
 
       </div>
