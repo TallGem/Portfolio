@@ -6,7 +6,7 @@ const Skills = () => {
 
   const hrStyle = {
     backgroundColor: 'black', 
-    height: '1px', 
+    height: '2px', 
     border: 'none',
     
     
