@@ -4,7 +4,7 @@ const Contact = () => {
   return (
 
     <div className='grid lg:grid-cols-2 mx-5 px-10 my-10' >
-      <div className='bg-blue-600'>
+      <div className='bg-green-600'>
 
         <h3 className='text text-2xl font-semibold'>
           ⪼⪼⪼ Contact:
@@ -14,7 +14,7 @@ const Contact = () => {
 
       </div>
 
-      <div className='bg-red-500' >
+      <div className='bg-purple-500' >
         <div>
           <h1>Any place in your app!</h1>
           <Formik

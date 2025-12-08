@@ -50,6 +50,8 @@ const App = () => {
     {/* <Project/> */}
     <Services/>
     <Contact/>
+    
+    
     </div>
     </>
   )
