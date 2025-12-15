@@ -44,12 +44,13 @@ const Contact = () => {
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
-                <button type="submit" disabled={isSubmitting} className='bg-pink-700 outline-green-800' >
-                  Submit'testing 32'
+                <button type="submit" disabled={isSubmitting} className='bg-pink-400 outline-green-800' >
+                  Submit'testing 35'
                 </button>
               </Form>
             )}
           </Formik>
+          
         </div>
       </div>
 
