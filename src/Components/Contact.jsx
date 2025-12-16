@@ -17,7 +17,7 @@ const Contact = () => {
 
       <div className='bg-purple-500' >
         <div>
-          <h1>Any place in your app!</h1>
+          <h1>Any place in your app it's going to work?</h1>
           <Formik
             initialValues={{ email: '', password: '' }}
             validate={values => {
@@ -44,7 +44,7 @@ const Contact = () => {
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
-                <button type="submit" disabled={isSubmitting} className='bg-pink-400 outline-green-800' >
+                <button type="submit" disabled={isSubmitting} className='bg-pink-700 outline-green-300' >
                   Submit'testing 35'
                 </button>
               </Form>
