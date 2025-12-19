@@ -39,17 +39,18 @@ const Contact = () => {
             }}
           >
             {({ isSubmitting }) => (
-              <Form className='text-purple-950 bg-slate-950'>
+              <Form className='text-blue-950 bg-slate-950'>
                 <Field type="email" name="email" />
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
-                <button type="submit" disabled={isSubmitting} className='bg-pink-700 outline-green-300' >
+                <button type="submit" disabled={isSubmitting} className='bg-red-700 outline-green-300' >
                   Submit'testing 6908'
                 </button>
               </Form>
             )}
           </Formik>
+          
           
         </div>
       </div>
