@@ -44,7 +44,7 @@ const Contact = () => {
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
-                <button type="submit" disabled={isSubmitting} className='bg-red-700 outline-green-300' >
+                <button type="submit" disabled={isSubmitting} className='bg-red-500 outline-green-200' >
                   Submit'testing 6908'
                 </button>
               </Form>
