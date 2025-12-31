@@ -4,7 +4,7 @@ const Contact = () => {
   return (
 
     <div className='grid lg:grid-cols-2 mx-5 px-10 my-10' >
-      <div className='bg-green-600'>
+      <div className='bg-green-200'>
 
         <h3 className='text text-2xl font-semibold'>
           ⪼⪼⪼ Contact:
@@ -45,7 +45,7 @@ const Contact = () => {
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
                 <button type="submit" disabled={isSubmitting} className='bg-red-500 outline-green-200' >
-                  Submit'testing 4825'
+                  Submit'testing 2026'
                 </button>
               </Form>
             )}
