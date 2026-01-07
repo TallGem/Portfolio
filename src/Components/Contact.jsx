@@ -39,13 +39,13 @@ const Contact = () => {
             }}
           >
             {({ isSubmitting }) => (
-              <Form className='text-blue-600 bg-orange-500'>
+              <Form className='text-blue-400 bg-orange-600'>
                 <Field type="email" name="email" />
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
                 <button type="submit" disabled={isSubmitting} className='bg-red-500 outline-green-200' >
-                  Submit'testing 01-206'
+                  Submit'testing 01788'
                 </button>
               </Form>
             )}
