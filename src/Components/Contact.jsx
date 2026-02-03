@@ -15,9 +15,9 @@ const Contact = () => {
       </div>
       
 
-      <div className='bg-purple-600' >
+      <div className='bg-purple-500' >
         <div>
-          <h1>Any place in your app it's going to works at a flash speedrate:?</h1>
+          <h1>Any place in your app it's going to works at a flash speedrates:?</h1>
           <Formik
             initialValues={{ email: '', password: '' }}
             validate={values => {
@@ -45,7 +45,7 @@ const Contact = () => {
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
                 <button type="submit" disabled={isSubmitting} className='bg-red-600 outline-green-200' >
-                  Submit'still testing 900'
+                  Submit'still testing 800'
                 </button>
               </Form>
             )}
