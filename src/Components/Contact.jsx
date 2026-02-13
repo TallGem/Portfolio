@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
       
 
-      <div className='bg-purple-500' >
+      <div className='bg-purple-600' >
         <div>
           <h1>Any place in your app it's going to works at a flash speed point:?</h1>
           <Formik
@@ -39,13 +39,13 @@ const Contact = () => {
             }}
           >
             {({ isSubmitting }) => (
-              <Form className='text-blue-300 bg-orange-400'>
+              <Form className='text-blue-400 bg-orange-500'>
                 <Field type="email" name="email" />
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
                 <button type="submit" disabled={isSubmitting} className='bg-red-600 outline-green-200' >
-                  Submit'still testing 800'
+                  Submit'still testing 500'
                 </button>
               </Form>
             )}
