@@ -4,7 +4,7 @@ const Contact = () => {
   return (
 
     <div className='grid lg:grid-cols-2 mx-5 px-10 my-10' >
-      <div className='bg-green-600'>
+      <div className='bg-green-500'>
 
         <h3 className='text text-2xl font-semibold'>
           ⪼⪼⪼ Contact:
@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
       
 
-      <div className='bg-purple-600' >
+      <div className='bg-purple-400' >
         <div>
           <h1>Any place in your app it's going to works at a flash speed rate:?</h1>
           <Formik
@@ -39,13 +39,13 @@ const Contact = () => {
             }}
           >
             {({ isSubmitting }) => (
-              <Form className='text-blue-300 bg-orange-400'>
+              <Form className='text-blue-300 bg-orange-600'>
                 <Field type="email" name="email" />
                 <ErrorMessage name="email" component="div" />
                 <Field type="password" name="password" />
                 <ErrorMessage name="password" component="div" />
-                <button type="submit" disabled={isSubmitting} className='bg-red-600 outline-green-200' >
-                  Submit'still testing 02026'
+                <button type="submit" disabled={isSubmitting} className='bg-red-500 outline-green-400' >
+                  Submit'still testing 047'
                 </button>
               </Form>
             )}
